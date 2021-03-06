@@ -1,0 +1,116 @@
+	#headerbar{
+		display: flex;
+		background-color: aquamarine;
+		
+		min-width: 100vw;
+		margin-left: 0;
+		top:0;
+		left:0;
+				position: fixed;
+				justify-content: space-between;
+	}
+	button{
+	 border: none;
+	 background-color: aquamarine;
+	 font-size: 20px;
+	 color: darkgreen;
+
+	}
+#logbtns{
+	display: flex;
+}
+.logs,#shopnow{
+	padding: 25px;
+}
+#menu1{display: flex;}
+.menuA{
+	max-width: 250px;
+	background-color: #00ffff;
+	display: flex;
+	justify-content: space-between;
+	z-index: 2;
+	/* position:absolute; */
+}
+.sub2:nth-of-type(2n){
+	background-color: #00d0ff;
+}
+.sub2{
+	
+	background-color: #00f0ff;
+	display: flex;
+	justify-content: space-between;
+	max-width: 250px;
+	/* position:absolute;  */
+	
+}
+.minbtn{
+	display: none;
+}
+
+#menus{position:absolute;}
+#rowdummy{
+	 background-image: url(icecream4.jpg);
+	 background-size: cover;
+  background-color: #cccccc;
+  height:500px;
+}
+
+.sbox{
+	padding:20px;
+	
+}
+#signup{
+	align-items: center;
+
+}
+#snbtndiv{
+	display: flex;
+	justify-content: space-evenly;
+}
+#caption {
+	
+	font-style: italic;
+	font-size: xx-large;
+	color: whitesmoke;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* ------------------------------ add item page------------------ */
+#additem{ 
+	float:left;
+	position:  absolute;
+ }
+ /* ------------------------------ shop now page------------------ */
+
+ .items{
+	 min-height: 100px;
+	
+	 max-width: 180px;
+	  max-height: 250px;
+	 border: solid 2px;
+	 color:black;
+	 background-color: lightcyan;
+	padding:10px;
+ }
+ #shopitems{display: grid;
+	 grid-template-columns: auto auto auto auto auto;
+	gap: 20px;
+	padding: 20px;}
+ .items1{
+	 min-height: 100;
+	 align-items: center;
+ }
+ .catbtns{
+	 padding: 25px;
+	 border: none;
+	 background-color: aquamarine;
+	 font-size: 20px;
+	 color: darkgreen;
+ }
+ .imgitems{
+	 max-width: 180px;
+	 max-height: 180px;
+ }
+ #header2{min-height: 100px;}
